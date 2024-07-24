@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm-run-all --parallel watch-css serve",
-    "watch-css": "node-sass -w scss -o docs/styles",
-    "build-css": "node-sass scss -o docs/styles",
-    "serve": "live-server docs --port=3000"
+    "watch-css": "node-sass -w scss/main.scss docs/styles/main.css",
+    "build-css": "node-sass scss/main.scss docs/styles/main.css",
+    "serve": "live-server --port=3000 docs"
   },
   "keywords": [],
   "author": "Kirsten Brice",
