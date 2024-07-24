@@ -8,7 +8,7 @@
     "start": "npm-run-all --parallel watch-css serve",
     "watch-css": "node-sass -w scss/main.scss docs/styles/main.css",
     "build-css": "node-sass scss/main.scss docs/styles/main.css",
-    "serve": "live-server --port=3000 public"
+    "serve": "live-server --port=3000 docs"
   },
   "keywords": [],
   "author": "Kirsten Brice",
