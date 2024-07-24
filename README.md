@@ -1,8 +1,8 @@
 # Sudoku Project
 
 ## URLs
-Live Site: https://kirstenatkinson.github.io/sudoku/
-Dosuku API: https://sudoku-api.vercel.app/
+- Live Site: https://kirstenatkinson.github.io/sudoku/
+- Dosuku API: https://sudoku-api.vercel.app/
 
 ## Description
 
