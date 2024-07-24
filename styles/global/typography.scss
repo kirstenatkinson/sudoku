@@ -1,0 +1,9 @@
+$main-font: Helvetica, sans-serif;
+
+body {
+    font-family: $main-font;
+}
+
+.cell.locked {
+    font-weight: bold;
+}
