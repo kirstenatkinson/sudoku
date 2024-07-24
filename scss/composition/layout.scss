@@ -6,4 +6,23 @@ body {
     height: 100vh;
     flex-direction: column;
     margin: 0;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+    #home {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+    }
+
+    .cover-image {
+        grid-column: 1 / 2;
+    }
+
+    #buttons {
+        grid-column: 2 / 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
