@@ -49,7 +49,7 @@ function setupHomePage() {
 
 async function generateSudoku(difficulty) {
     try {
-        const response = await fetch('https://sudoku-api.vercel.app/api/dosuku?query={newboard(limit:5){grids{value,solution,difficulty},results,message}}');
+        const response = await fetch('https://sudoku-api.vercel.app/api/dosuku?query={newboard(limit:10){grids{value,solution,difficulty},results,message}}');
         const data = await response.json();
 
         const sudokuGrid = data.newboard.grids.find(grid => grid.difficulty.toLowerCase() === difficulty);
